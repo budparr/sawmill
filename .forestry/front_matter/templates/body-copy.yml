@@ -5,7 +5,9 @@ fields:
   name: content
   label: Content
   config:
-    wysiwyg: true
+    wysiwyg: false
+    schema:
+      format: html
 - type: select
   name: contentType
   config:
