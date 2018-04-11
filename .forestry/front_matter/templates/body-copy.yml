@@ -5,7 +5,7 @@ fields:
   name: content
   label: Content
   config:
-    wysiwyg: false
+    wysiwyg: true
     schema:
       format: html
 - type: select
@@ -17,4 +17,4 @@ fields:
     - Markdown
     - HTML
   label: Content Type
-  default: Markdown
+  default: HTML
