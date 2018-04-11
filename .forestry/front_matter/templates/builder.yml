@@ -4,6 +4,12 @@ pages:
 hide_body: true
 fields:
 - type: text
+  name: title
+  label: Title
+- type: datetime
+  name: date
+  label: Date
+- type: text
   hidden: true
   label: Layout
   name: layout
