@@ -4,8 +4,6 @@ fields:
 - type: textarea
   name: quote
   label: Quote
-  config:
-    required: true
 - type: text
   name: attribution
   label: Attribution
