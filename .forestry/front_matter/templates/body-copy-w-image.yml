@@ -6,6 +6,8 @@ fields:
   name: content
   config:
     wysiwyg: true
+    schema:
+      format: html
 - type: select
   name: contentType
   config:
@@ -15,7 +17,7 @@ fields:
     - Markdown
     - HTML
   label: Content Type
-  default: Markdown
+  default: HTML
 - type: file
   name: image
   label: Image
