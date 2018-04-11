@@ -20,7 +20,6 @@ fields:
   label: Blocks
   name: blocks
   template_types:
-  - pull-quote
   - category-feed
   - body-copy-w-image
   - body-copy
